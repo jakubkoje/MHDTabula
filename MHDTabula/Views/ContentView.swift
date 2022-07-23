@@ -45,7 +45,8 @@ struct ContentView: View {
             .searchable(text: $searchText, prompt: "Hľadať")
             .navigationTitle("MHD Tabuľa")
             
-            Text("Vyber si v menu zastávku").font(.largeTitle)
+            Text("Vyber si v menu zastávku")
+                .font(.largeTitle)
         }
 
     }

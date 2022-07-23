@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B2FA42D288C67F4006CFBD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B2FA42C288C67F4006CFBD6 /* LaunchScreen.storyboard */; };
 		3B44657A288C55AD009F3695 /* MHDTabulaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B446579288C55AD009F3695 /* MHDTabulaApp.swift */; };
 		3B44657C288C55AD009F3695 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B44657B288C55AD009F3695 /* ContentView.swift */; };
 		3B44657E288C55B2009F3695 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B44657D288C55B2009F3695 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B2FA42C288C67F4006CFBD6 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B446576288C55AD009F3695 /* MHDTabula.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MHDTabula.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B446579288C55AD009F3695 /* MHDTabulaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHDTabulaApp.swift; sourceTree = "<group>"; };
 		3B44657B288C55AD009F3695 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				3B446579288C55AD009F3695 /* MHDTabulaApp.swift */,
+				3B2FA42C288C67F4006CFBD6 /* LaunchScreen.storyboard */,
 				3B2FA42A288C5CD1006CFBD6 /* Views */,
 				3B2FA429288C5CB4006CFBD6 /* Models */,
 				3B2FA42B288C5CEA006CFBD6 /* Services */,
@@ -173,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B446581288C55B2009F3695 /* Preview Assets.xcassets in Resources */,
+				3B2FA42D288C67F4006CFBD6 /* LaunchScreen.storyboard in Resources */,
 				3B44657E288C55B2009F3695 /* Assets.xcassets in Resources */,
 				3B446588288C55C4009F3695 /* stops.json in Resources */,
 			);
@@ -330,7 +334,7 @@
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Pre nájdenie najbližšej zastávky";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -363,7 +367,7 @@
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Pre nájdenie najbližšej zastávky";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
