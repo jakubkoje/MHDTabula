@@ -10,6 +10,7 @@ import CoreLocation
 
 struct ContentView: View {
     @State private var searchText = ""
+    @State private var showingInfoSheet = false
     @StateObject var locationManager = LocationManager()
     @StateObject var favoriteStops = FavoriteStops()
     
@@ -42,11 +43,23 @@ struct ContentView: View {
                 StopItemView(stop: stop)
                     .environmentObject(favoriteStops)
             }
-            .searchable(text: $searchText, prompt: "Hľadať")
+            .searchable(text: $searchText, prompt: "Hľadať zastávku")
             .navigationTitle("MHD Tabuľa")
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button {
+                        showingInfoSheet.toggle()
+                    } label: {
+                        Image(systemName: "questionmark.circle")
+                    }
+                }
+            }
             
             Text("Vyber si v menu zastávku")
                 .font(.largeTitle)
+        }
+        .sheet(isPresented: $showingInfoSheet) {
+            InfoSheetView()
         }
 
     }

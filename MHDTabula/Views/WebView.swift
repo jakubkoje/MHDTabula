@@ -20,7 +20,8 @@ struct WebView: UIViewRepresentable {
     }
     
     func updateUIView(_ webView: WKWebView, context: Context) {
-        let request = URLRequest(url: url)
+        var request = URLRequest(url: url)
+        request.httpShouldHandleCookies = false
         webView.load(request)
     }
 }

@@ -7,28 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B122C5E292971DD005D5024 /* InfoSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B122C5D292971DD005D5024 /* InfoSheetView.swift */; };
 		3B2FA42D288C67F4006CFBD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B2FA42C288C67F4006CFBD6 /* LaunchScreen.storyboard */; };
 		3B44657A288C55AD009F3695 /* MHDTabulaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B446579288C55AD009F3695 /* MHDTabulaApp.swift */; };
 		3B44657C288C55AD009F3695 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B44657B288C55AD009F3695 /* ContentView.swift */; };
 		3B44657E288C55B2009F3695 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B44657D288C55B2009F3695 /* Assets.xcassets */; };
 		3B446581288C55B2009F3695 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B446580288C55B2009F3695 /* Preview Assets.xcassets */; };
-		3B446588288C55C4009F3695 /* stops.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B446587288C55C4009F3695 /* stops.json */; };
 		3B44658A288C55F6009F3695 /* Stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B446589288C55F6009F3695 /* Stop.swift */; };
 		3B44658E288C562B009F3695 /* StopDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B44658D288C562B009F3695 /* StopDetailView.swift */; };
 		3B446590288C563C009F3695 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B44658F288C563C009F3695 /* WebView.swift */; };
 		3B446592288C564C009F3695 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B446591288C564C009F3695 /* LocationManager.swift */; };
 		3B446594288C565B009F3695 /* StopItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B446593288C565B009F3695 /* StopItemView.swift */; };
 		3B446596288C566B009F3695 /* FavoriteStops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B446595288C566B009F3695 /* FavoriteStops.swift */; };
+		3B47578E28F55F4400659188 /* stops.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B47578D28F55F4400659188 /* stops.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B122C5D292971DD005D5024 /* InfoSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoSheetView.swift; sourceTree = "<group>"; };
 		3B2FA42C288C67F4006CFBD6 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B446576288C55AD009F3695 /* MHDTabula.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MHDTabula.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B446579288C55AD009F3695 /* MHDTabulaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHDTabulaApp.swift; sourceTree = "<group>"; };
 		3B44657B288C55AD009F3695 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3B44657D288C55B2009F3695 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B446580288C55B2009F3695 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3B446587288C55C4009F3695 /* stops.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = stops.json; sourceTree = "<group>"; };
 		3B446589288C55F6009F3695 /* Stop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stop.swift; sourceTree = "<group>"; };
 		3B44658D288C562B009F3695 /* StopDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopDetailView.swift; sourceTree = "<group>"; };
 		3B44658F288C563C009F3695 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
@@ -36,6 +37,7 @@
 		3B446593288C565B009F3695 /* StopItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopItemView.swift; sourceTree = "<group>"; };
 		3B446595288C566B009F3695 /* FavoriteStops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteStops.swift; sourceTree = "<group>"; };
 		3B446597288C5720009F3695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3B47578D28F55F4400659188 /* stops.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = stops.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				3B44658D288C562B009F3695 /* StopDetailView.swift */,
 				3B44658F288C563C009F3695 /* WebView.swift */,
 				3B446593288C565B009F3695 /* StopItemView.swift */,
+				3B122C5D292971DD005D5024 /* InfoSheetView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -101,8 +104,8 @@
 				3B2FA42A288C5CD1006CFBD6 /* Views */,
 				3B2FA429288C5CB4006CFBD6 /* Models */,
 				3B2FA42B288C5CEA006CFBD6 /* Services */,
+				3B47578D28F55F4400659188 /* stops.json */,
 				3B446597288C5720009F3695 /* Info.plist */,
-				3B446587288C55C4009F3695 /* stops.json */,
 				3B44657D288C55B2009F3695 /* Assets.xcassets */,
 				3B44657F288C55B2009F3695 /* Preview Content */,
 			);
@@ -178,7 +181,7 @@
 				3B446581288C55B2009F3695 /* Preview Assets.xcassets in Resources */,
 				3B2FA42D288C67F4006CFBD6 /* LaunchScreen.storyboard in Resources */,
 				3B44657E288C55B2009F3695 /* Assets.xcassets in Resources */,
-				3B446588288C55C4009F3695 /* stops.json in Resources */,
+				3B47578E28F55F4400659188 /* stops.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +196,7 @@
 				3B446590288C563C009F3695 /* WebView.swift in Sources */,
 				3B446592288C564C009F3695 /* LocationManager.swift in Sources */,
 				3B44657A288C55AD009F3695 /* MHDTabulaApp.swift in Sources */,
+				3B122C5E292971DD005D5024 /* InfoSheetView.swift in Sources */,
 				3B446594288C565B009F3695 /* StopItemView.swift in Sources */,
 				3B44658A288C55F6009F3695 /* Stop.swift in Sources */,
 				3B44658E288C562B009F3695 /* StopDetailView.swift in Sources */,
